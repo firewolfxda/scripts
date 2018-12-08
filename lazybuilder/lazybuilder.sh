@@ -56,6 +56,8 @@ elif [ "$lzbtype1" = "0" ]; then
                 exit
 fi
 else
-  printf "${red}\n Invalid value\n${nocol}${red} Try again or exit...\n${nocol}"
+  echo
+  echo -e "\e[5m\e[31m Invalid value\e[0m"
+  printf "${red} Try again or exit...\n${nocol}"
   bash lazybuilder.sh
 fi
