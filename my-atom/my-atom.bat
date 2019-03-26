@@ -1,0 +1,2 @@
+@echo off
+apm install minimap file-icons emmet pigments minimap-pigments highlight-selected linter linter-ui-default intentions busy-signal linter-gcc atom-beautify atom-html-preview gpp-compiler template-atom
